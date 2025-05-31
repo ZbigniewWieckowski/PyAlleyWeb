@@ -13,7 +13,7 @@ Web interface for matching PyAlley bots against the sample bot
    It is recommended to use a virtual environment. You can create one using `venv` or `conda`.
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r spyalley-fastapi-app/requirements.txt
    ```
 
 3. **Run the application**:
