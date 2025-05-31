@@ -26,5 +26,5 @@ Web interface for matching PyAlley bots against the sample bot
 4. **Access the application**:
    Submit bot for a local matchup:  
    ```bash
-   curl -X POST -F "file=@/home/<PATH>/Y00_Bot.py" http://127.0.0.1:8000/upload/
+   curl -X POST -F "file=@/home/<DIR>/PyAlleyWeb/Sample/Y00_Bot.py" http://127.0.0.1:8000/upload/
    ```
