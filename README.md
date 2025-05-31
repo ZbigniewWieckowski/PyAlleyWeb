@@ -17,6 +17,9 @@ Web interface for matching PyAlley bots against the sample bot
    ```bash
    python3 -m venv .venv
    ```
+   ```
+   source .venv/bin/activate
+   ```
 
    ```bash
    pip install -r spyalley-fastapi-app/requirements.txt
