@@ -5,6 +5,8 @@ Web interface for matching PyAlley bots against the sample bot
 
 1. **Clone the repository**:
    ```bash
+   ```
+   ```
    git clone <repository-url>
    cd PyAlleyWeb
    ```
