@@ -6,7 +6,7 @@ Web interface for matching PyAlley bots against the sample bot
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd spyalley-fastapi-app
+   cd PyAlleyWeb
    ```
 
 2. **Install dependencies**:
