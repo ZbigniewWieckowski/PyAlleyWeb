@@ -20,6 +20,8 @@ Web interface for matching PyAlley bots against the sample bot
    Use Uvicorn to run the FastAPI application:
    ```bash
    cd spyalley-fastapi-app
+   ```
+   ```
    uvicorn app.main:app --reload
    ```
 
