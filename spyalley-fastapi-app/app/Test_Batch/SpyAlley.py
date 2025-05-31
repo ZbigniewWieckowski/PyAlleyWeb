@@ -3,7 +3,7 @@ import math
 import random
 from Player import Player
 from ComputerPlayer import ComputerPlayer
-from Z00_Bot import Z00_Bot
+from app.Test_Batch.Z00_Bot import Z00_Bot
 
 
 class J00_Bot(ComputerPlayer):
