@@ -1,11 +1,29 @@
 # PyAlleyWeb
 Web interface for matching PyAlley bots against the sample bot
 
-Run locally:  
+## Setup Instructions
 
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd spyalley-fastapi-app
+   ```
 
-Submit bot for a local matchup:
+2. **Install dependencies**:
+   It is recommended to use a virtual environment. You can create one using `venv` or `conda`.
 
-curl -X POST -F "file=@/home/<PATH>/Y00_Bot.py" http://127.0.0.1:8000/upload/
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the application**:
+   Use Uvicorn to run the FastAPI application:
+   ```bash
+   uvicorn app.main:app --reload
+   ```
+
+4. **Access the application**:
+   Submit bot for a local matchup:  
+   ```bash
+   curl -X POST -F "file=@/home/<PATH>/Y00_Bot.py" http://127.0.0.1:8000/upload/
+   ```
