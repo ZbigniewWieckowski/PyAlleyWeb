@@ -15,10 +15,14 @@ Web interface for matching PyAlley bots against the sample bot
    It is recommended to use a virtual environment. You can create one using `venv` or `conda`.
 
    ```bash
+   python3 -m venv .venv
+   ```
+
+   ```bash
    pip install -r spyalley-fastapi-app/requirements.txt
    ```
 
-3. **Run the application**:
+4. **Run the application**:
    Use Uvicorn to run the FastAPI application:
    ```bash
    cd spyalley-fastapi-app
@@ -27,7 +31,7 @@ Web interface for matching PyAlley bots against the sample bot
    uvicorn app.main:app --reload
    ```
 
-4. **Access the application**:
+5. **Access the application**:
    Submit bot for a local matchup:  
    ```bash
    curl -X POST -F "file=@/home/<DIR>/PyAlleyWeb/Sample/Y00_Bot.py" http://127.0.0.1:8000/upload/
