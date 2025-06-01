@@ -1,5 +1,5 @@
 # PyAlleyWeb
-Web interface for matching PyAlley bots against the sample bot
+Web interface for matching PyAlley bots against the sample bot. For additonal resources (Spy Alley game rules, local interactive/batch running/testing, general board game strategy/learning research papers) please look at https://github.com/ZbigniewWieckowski/PyAlley.git repo.
 
 ## Setup Instructions
 
